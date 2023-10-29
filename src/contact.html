@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bussiness</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="../node_modules/@flaticon/flaticon-uicons/css/all/all.css">
+    
+    
+   
+</head>
+<body class="md:h-screen sm:max-h-full bg-gradient-to-tl from-blue-600  via-purple-600  to-pink-600/80 ">
+      <header>
+           <div class="ml-6 mt-6">
+              <img src="../dccl--responsive-contact-page/contact-form-icon.svg" alt="">
+           </div>
+      </header>
+
+
+      <main>
+           <div class="my-6 p-6 font-BeVietnamPro text-center text-blancopastel">
+                <h1 class="sm:text-5xl md:text-6 font-bold ">Interested in our business pricing?</h1>
+                <p class="text-2xl sm:mt-6 md:mt-10">Fill out the form to view details and we’ll contact you as soon as possible.</p>
+           </div>
+
+        <div class="md:flex md:justify-center sm:p-4">
+           <div class="bg-white/20 px-4 sm:py-4 md:py-2 rounded-xl">
+              <div class="md:flex justify-center">
+                 <form action="">
+                    <div class="my-3 md:grid md:grid-cols-2 sm:grid-cols-1  gap-4">
+
+                     <div class="mt-2 sm:px-2 md:p-0 ">
+                      <label for="name" class="text-blancopastel font-BeVietnamPro">Name</label>
+                      <div class="">
+                         <input type="text" class="p-3 rounded-lg focus:outline-none sm:w-full md:w-full" id="name" placeholder="Ethan Johnson" required>
+                      </div>
+                     </div>
+
+                     <div class="mt-2 sm:px-2 md:p-0 ">
+                      <label for="companyemail" class="text-blancopastel font-BeVietnamPro">Company Email</label>
+                      <div>
+                        <input type="text" class="p-3 rounded-lg focus:outline-none sm:w-full md:w-full" id="companyemail" placeholder="ethan@johnson.com" required>
+                      </div>
+                     </div>
+   
+                    <!-- DROPDOWN 2 -->
+                    <div class="mt-2 sm:px-2 md:p-0">
+                      <label for="CompanySize" class="text-blancopastel font-BeVietnamPro">Company Size</label>
+                      <div>
+                        <button class="bg-white p-3 w-full rounded-lg flex justify-between items-center focus:outline-none" id="opendropdown2">
+                          <span class="">50-100 employees</span>
+                          <i class="fi fi-rr-angle-small-down" id="icono2"></i>
+                        </button>
+                      </div>
+                      <div class="mt-2 p-2 bg-white rounded-lg hidden" id="openmenu2">
+                        <a href="#" class="block hover:bg-slate-200 hover:rounded-t-lg px-2 py-2">100-200 employees</a>
+                        <a href="#" class="block hover:bg-slate-200 px-2 py-2">300-400 employees</a>
+                        <a href="#" class="block hover:bg-slate-200 hover:rounded-b-lg px-2 py-2">500-600 employees</a>
+                      </div>
+                    </div>
+
+      
+                  <!-- DROPDOWN 1 -->
+                  <div class="mt-2 sm:px-2 md:p-0">
+                     <label for="Subject" class="text-blancopastel font-BeVietnamPro">Subject</label>
+                     <div>
+                       <button class="bg-white p-3 w-full rounded-lg flex justify-between items-center focus:outline-none" id="opendropdown">
+                         <span class="">Building Landing Pages</span>
+                         <i class="fi fi-rr-angle-small-down" id="icono1"></i>
+                       </button>
+                     </div>
+                     <div class="mt-2 p-2 bg-white rounded-lg hidden" id="openmenu">
+                       <a href="#" class="block hover:bg-slate-200 hover:rounded-t-lg px-2 py-2">E-commerce</a>
+                       <a href="#" class="block hover:bg-slate-200 px-2 py-2">Web Design</a>
+                       <a href="#" class="block hover:bg-slate-200 hover:rounded-b-lg px-2 py-2">Remotely Work</a>
+                     </div>
+                   </div>
+               </div>
+
+                   <!-- DROPDOWNS END -->
+
+                    <div class="">
+                      <span class="text-blancopastel">Message</span>
+                      <textarea name="Message" id="form" cols="58" rows="10" class="focus:outline-none rounded-lg  sm:w-full p-2" required></textarea>
+                    </div>
+
+                    <div class="text-center py-3">
+                      <button class="bg-white p-3 w-full rounded-lg font-BeVietnamPro font-bold text-violeta hover:bg-blancopastel hover:-translate-y-1 hover:ease-in-out hover:delay-150">Contact Sales</button>
+                    </div>
+
+                    
+                 </form>
+              </div>
+           </div>
+        </div>
+      </main>
+
+      <script src="../src/dropdown.js"></script>
+      
+</body>
+</html>
