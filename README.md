@@ -5,7 +5,7 @@ Mi nombre y apellido es Bautista Ariza y este es un desafio que hize para el sit
 
 Para este desafio he utilzado leguajes de diseño y desarrollo tales como HTML5, Tailwind css y Javascript.
 
-
+English:
 HI EVERYONE!
 My name and last name is Bautista Ariza and this is a Challenge i did for DevChallenge site, i hope likes you :)
 
