@@ -2,7 +2,7 @@
 
 English:
 HI EVERYONE!
-My name and last name is Bautista Ariza and this is a Challenge i did for DevChallenge site, i hope likes you :)
+My name  is Bautista Ariza and this is a Challenge i did for DevChallenge site, i hope likes you :)
 
 For this challenge i used layout and develop languajes like HTML5, Tailwind css and Javascript.
 
